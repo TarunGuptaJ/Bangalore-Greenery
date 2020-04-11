@@ -3,8 +3,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("green_above_75.csv")
-# 202x 113
+df = pd.read_csv("csv_files/green_all.csv")
+# 76x66
 result = df.pivot(index='yval', columns='xval', values='Percentage')
 
 fig, ax = plt.subplots(figsize=(12, 7))
