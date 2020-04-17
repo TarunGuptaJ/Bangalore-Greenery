@@ -30,7 +30,7 @@ If you get an error like "JAR does not exist or is not a normal file: " while ex
 hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar grep input output 'dfs[a-z.]+'  
 Add $HADOOP_HOME/ before share.  
 
-To make sure everything works and you want to understand the inner working follow the below link:  
+To make sure everything works and you want to understand the outputs easily follow the below link:  
 https://www.guru99.com/create-your-first-hadoop-program.html  
 
 
