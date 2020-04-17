@@ -11,7 +11,7 @@ to find the location where java or hadoop is installed, execute the following co
 
 sudo su  
 sudo updatedb  
-locate <whatever you want to find>  
+locate "whatever you want to find" 
 
 When you do start dfs and if it says permission denied even after you've made ssh localhost no password  
 then follow this link : * https://stackoverflow.com/questions/42756555/permission-denied-error-while-running-start-dfs-sh  
@@ -27,4 +27,8 @@ by clearning tmp similar to the last error
 If you get an error like "JAR does not exist or is not a normal file: " while executing the command  
 hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar grep input output 'dfs[a-z.]+'  
 Add $HADOOP_HOME/ before share.  
+
+To make sure everything works and you want to understand the inner working follow the below link:  
+* https://www.guru99.com/create-your-first-hadoop-program.html  
+
 
