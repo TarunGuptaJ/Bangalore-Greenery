@@ -5,6 +5,7 @@ For Ubuntu
 
 ## Links  
 * [Main Link for setup](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html#Execution)  
+* Link for hadoop-3.2.1 stable : http://apachemirror.wuchna.com/hadoop/common/hadoop-3.2.1/hadoop-3.2.1.tar.gz  
 
 While setting up hadoop and java we have to add them to path, it happens automatically if it doesn't  
 to find the location where java or hadoop is installed, execute the following commands  :
