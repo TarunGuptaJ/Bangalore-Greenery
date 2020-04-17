@@ -16,7 +16,7 @@ sudo updatedb
 locate "whatever you want to find" 
 
 When you do start dfs and if it says permission denied even after you've made ssh localhost no password  
-then follow this link : * https://stackoverflow.com/questions/42756555/permission-denied-error-while-running-start-dfs-sh  
+then follow this link : https://stackoverflow.com/questions/42756555/permission-denied-error-while-running-start-dfs-sh  
 
 When you run the command : 'hdfs dfs -put etc/hadoop/*.xml input' and you get an error  
 Add &HADOOP_HOME/ before etc in the command  
@@ -31,6 +31,6 @@ hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar grep input
 Add $HADOOP_HOME/ before share.  
 
 To make sure everything works and you want to understand the inner working follow the below link:  
-* https://www.guru99.com/create-your-first-hadoop-program.html  
+https://www.guru99.com/create-your-first-hadoop-program.html  
 
 
