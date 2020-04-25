@@ -18,7 +18,7 @@ After this output is generated the indices of the locations are extracted using 
 
 Based on these indices we have used Haversine's formula to obtain the latitude and longitude of these locations which are stored in coords.rtf. This code is in getCoordsDegreeDec.py.
 
-The closest location names are extracted from these coordinates and are stored in locationData.txt.
+The closest location names are extracted from these coordinates and are stored in locationData.txt using getLocationName.py.
 
 We have also written code to perform a visualisation of these data points using follium to plot the locations onto a map. This map can be seen in View_Map.ipynb
 
