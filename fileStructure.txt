@@ -1,0 +1,20 @@
+Folder Structure for execution
+//Hadoop Map Reduce
+Greater75
+--Greater75
+    --Greater75Driver.class
+    --Greater75Mapper.class
+    --Greater75Reducer.class
+--Greater75.jar
+--Greater75Driver.java
+--Greater75Driver.java
+--Greater75Driver.java
+--Manifest.txt
+--green.csv
+--output
+
+External Modules required for running each file
+hsvtrack.py : Numpy, Opencv
+green_percent.py : Numpy, glob, opencv
+View_Map.ipynb : folium
+create_heatmap.py : Numpy, Pandas, Seaborn, Matplotlib 
