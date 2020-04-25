@@ -3,7 +3,7 @@ import numpy as np
 import glob
 
 
-folder = "images/*.jpg" #path to folder
+folder = "images/*.tif" #path to folder
 values = open('csv_files/green.csv', "w")
 
 for imgpath in glob.glob(folder):

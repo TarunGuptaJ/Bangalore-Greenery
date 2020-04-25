@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("csv_files/green_above_75.csv")
+df = pd.read_csv("csv_files/green_all.csv")
 # 76x66
 result = df.pivot(index='yval', columns='xval', values='Percentage')
 

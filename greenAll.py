@@ -1,4 +1,4 @@
-og = open("csv_files/green400090255255.csv","r")
+og = open("csv_files/green.csv","r")
 new = open("csv_files/green_all.csv","w")
 print("Area,Percentage,xval,yval",file = new)
 
