@@ -17,4 +17,6 @@ External Modules required for running each file
 hsvtrack.py : Numpy, Opencv
 green_percent.py : Numpy, glob, opencv
 View_Map.ipynb : folium
-create_heatmap.py : Numpy, Pandas, Seaborn, Matplotlib 
+create_heatmap.py : Numpy, Pandas, Seaborn, Matplotlib
+genCoordsAll.py : gdal
+getLocationName.py : reverse_geocoder
