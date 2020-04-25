@@ -1,7 +1,7 @@
 # Bangalore-Greenery
 Places in Bangalore with lot of greenery according to Google map
 
-[Dataset](https://drive.google.com/drive/folders/1a3UcbFKUPF9maoQxqVPGs6ERIv-N77TD?usp=sharing)
+[Dataset](https://drive.google.com/drive/folders/1YK8cPM2ofDmusMXaA0jyx9KHpfJb79Rx?usp=sharing)
 
 
 The dataset was collected using SASGIS to generate satellite images of bangalore. The dataset consists of 6840 satellite images.
