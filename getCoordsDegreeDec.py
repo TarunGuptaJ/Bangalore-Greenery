@@ -1,34 +1,36 @@
 '''
 Top left corner
-13.151955, 77.370003
+13°09'06.1"N 77°20'23.6"E
+13.151690, 77.339886
 
 Bottom right corner
-12.803351,  77.777871
+12°45'40.3"N 77°51'24.9"E
+12.761194, 77.856917
 
 Distance calculated by Haverine formula
-left to right = 44.16km
-top to bottom = 38.76km
+left to right = 55.98km
+top to bottom = 70.88km
 
-76x66
+95x74
 
 So let something be at tile x,y
 distance of the top right corner of the box will be at
-x * (44.16/76) km right and y * (38.76/66) km below
+x * (55.98/95) km right and y * (70.88/74) km below
 '''
 
 import math
 
 f = open("csv_files/places.csv")
 coords = open("coords.rtf", "w")
-lat1 = 13.151955
-lng1 = 77.370003
+lat1 = 13.151690
+lng1 = 77.339886
 lat1 = math.radians(lat1)
 lng1 = math.radians(lng1)
 R = 6371        # radius of earth
 for line in f:
     s = line.split(',')
-    lngdist = (44.16/76) * (int(s[0]) - 0.5)
-    latdist = (38.76/66) * (int(s[1]) - 0.5)
+    lngdist = (55.98/95) * (int(s[0]) - 0.5)
+    latdist = (70.88/74) * (int(s[1]) - 0.5)
     # getting the lat2
     c = latdist / R
     a = math.pow(math.sin(c / 2), 2)
