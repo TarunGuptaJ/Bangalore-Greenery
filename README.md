@@ -4,7 +4,7 @@ Places in Bangalore with lot of greenery according to Google map
 [Dataset](https://drive.google.com/drive/folders/1a3UcbFKUPF9maoQxqVPGs6ERIv-N77TD?usp=sharing)
 
 
-The dataset was collected using SASGIS to generate satellite images of bangalore. The dataset consists of 5016 satellite images.
+The dataset was collected using SASGIS to generate satellite images of bangalore. The dataset consists of 6840 satellite images.
 
 
 First hsvtrack.py was used on the satellite images to determine the hsv range for green values. After this range was obtained green_percent.py is used to read all the images and create the csv file with the green percentage of each image.
