@@ -4,7 +4,7 @@ import glob
 
 
 folder = "images/*.jpg" #path to folder
-values = open('csv_files/green400090255255.csv', "w")
+values = open('csv_files/green.csv', "w")
 
 for imgpath in glob.glob(folder):
     image = cv2.imread(imgpath)
