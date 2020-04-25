@@ -24,4 +24,4 @@ We have also written code to perform a visualisation of these data points using 
 
 We have also written code to generate a heatmap of all the green percentages of the different blocks in create_heatmap.py
 
-Kepler visualization link : 
+
