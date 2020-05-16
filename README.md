@@ -28,7 +28,7 @@ Places in Bangalore with lot of greenery according to Google map
 
 9. The closest location names are extracted from these coordinates and are stored in *locationData.txt* using *getLocationName.py*. For this we used [Reverse Geocoder](https://pypi.org/project/reverse_geocoder/).
 
-10. We have also written code to perform a visualisation of these data points using [Follium](https://pypi.org/project/folium/) to plot the locations onto a map. This map can be seen in *View_Map.ipynb*.
+10. We have also written code to perform a visualisation of these data points using [Folium](https://pypi.org/project/folium/) to plot the locations onto a map. This map can be seen in *View_Map.ipynb*.
 
 11. We have also written code to generate a heatmap of all the green percentages of the different blocks in *create_heatmap.py*.
 
